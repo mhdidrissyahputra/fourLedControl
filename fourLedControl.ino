@@ -4,8 +4,6 @@ bool buttonState;
 int x = 0;
 
 void setup() {
-  Serial.begin(9600);
-
   for (int y = 0; y < 4; y++) {
     pinMode(led[y], OUTPUT);
   }
